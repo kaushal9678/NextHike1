@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface WebViewController : UIViewController
+@property IBOutlet UIWebView * webView;
+
+@property NSString * url;
 
 @end

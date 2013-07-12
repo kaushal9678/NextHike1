@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomTableView : UITableView
+
+
+@protocol CustomTableViewDelegate <NSObject>
+
+-(void)customTableViewRowClicked:(NSString*)url;
+
+@end
+
+@interface CustomTableView : UITableView<UITableViewDataSource,UITableViewDelegate>
+@property id<CustomTableViewDelegate> delegate_;
+@property NSArray * array;
+- (id)initWithFrame:(CGRect)frame array:(NSArray *)array;
 
 @end
