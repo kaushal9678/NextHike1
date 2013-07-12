@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E174C5431790138D00615FA2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */; };
+		E174C5441790138D00615FA2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53A1790138C00615FA2 /* AFImageRequestOperation.m */; };
+		E174C5451790138D00615FA2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53C1790138C00615FA2 /* AFURLConnectionOperation.m */; };
+		E174C5461790138D00615FA2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53E1790138C00615FA2 /* UIImageView+AFNetworking.m */; };
+		E174C5471790138D00615FA2 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E174C5401790138D00615FA2 /* SVProgressHUD.bundle */; };
+		E174C5481790138D00615FA2 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C5421790138D00615FA2 /* SVProgressHUD.m */; };
 		E1E149341790010E007963DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E149331790010E007963DF /* UIKit.framework */; };
 		E1E149361790010E007963DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E149351790010E007963DF /* Foundation.framework */; };
 		E1E149381790010E007963DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E149371790010E007963DF /* CoreGraphics.framework */; };
@@ -26,6 +32,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E174C5371790138C00615FA2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E174C5391790138C00615FA2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		E174C53A1790138C00615FA2 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		E174C53B1790138C00615FA2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E174C53C1790138C00615FA2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E174C53D1790138C00615FA2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E174C53E1790138C00615FA2 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E174C5401790138D00615FA2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E174C5411790138D00615FA2 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E174C5421790138D00615FA2 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		E1E149301790010E007963DF /* JSONAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E149331790010E007963DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1E149351790010E007963DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +83,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E174C5361790138C00615FA2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E174C5371790138C00615FA2 /* AFHTTPRequestOperation.h */,
+				E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */,
+				E174C5391790138C00615FA2 /* AFImageRequestOperation.h */,
+				E174C53A1790138C00615FA2 /* AFImageRequestOperation.m */,
+				E174C53B1790138C00615FA2 /* AFURLConnectionOperation.h */,
+				E174C53C1790138C00615FA2 /* AFURLConnectionOperation.m */,
+				E174C53D1790138C00615FA2 /* UIImageView+AFNetworking.h */,
+				E174C53E1790138C00615FA2 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E174C53F1790138C00615FA2 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E174C5401790138D00615FA2 /* SVProgressHUD.bundle */,
+				E174C5411790138D00615FA2 /* SVProgressHUD.h */,
+				E174C5421790138D00615FA2 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		E1E149271790010E007963DF = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +138,8 @@
 		E1E149391790010E007963DF /* JSONAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				E174C5361790138C00615FA2 /* AFNetworking */,
+				E174C53F1790138C00615FA2 /* SVProgressHUD */,
 				E1E149671790033C007963DF /* WebViewController */,
 				E1E1495017900119007963DF /* AppDelegate */,
 				E1E1493A1790010E007963DF /* Supporting Files */,
@@ -234,6 +278,7 @@
 				E1E149591790016C007963DF /* CustomCell.xib in Resources */,
 				E1E1495B17900237007963DF /* CustomCell_iPad.xib in Resources */,
 				E1E1496617900328007963DF /* WebViewController.xib in Resources */,
+				E174C5471790138D00615FA2 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +295,11 @@
 				E1E1495717900155007963DF /* CustomCell.m in Sources */,
 				E1E1495F179002EB007963DF /* CustomTableView.m in Sources */,
 				E1E1496517900328007963DF /* WebViewController.m in Sources */,
+				E174C5431790138D00615FA2 /* AFHTTPRequestOperation.m in Sources */,
+				E174C5441790138D00615FA2 /* AFImageRequestOperation.m in Sources */,
+				E174C5451790138D00615FA2 /* AFURLConnectionOperation.m in Sources */,
+				E174C5461790138D00615FA2 /* UIImageView+AFNetworking.m in Sources */,
+				E174C5481790138D00615FA2 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
