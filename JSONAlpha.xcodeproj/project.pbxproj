@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E12E8F0E1790143200A2E26A /* Call_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = E12E8F0D1790143200A2E26A /* Call_Service.m */; };
+		E12E8F101790147C00A2E26A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12E8F0F1790147C00A2E26A /* SystemConfiguration.framework */; };
 		E174C5431790138D00615FA2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */; };
 		E174C5441790138D00615FA2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53A1790138C00615FA2 /* AFImageRequestOperation.m */; };
 		E174C5451790138D00615FA2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53C1790138C00615FA2 /* AFURLConnectionOperation.m */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		E12E8F0C1790143200A2E26A /* Call_Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Call_Service.h; sourceTree = "<group>"; };
 		E12E8F0D1790143200A2E26A /* Call_Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Call_Service.m; sourceTree = "<group>"; };
+		E12E8F0F1790147C00A2E26A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E174C5371790138C00615FA2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E174C5391790138C00615FA2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12E8F101790147C00A2E26A /* SystemConfiguration.framework in Frameworks */,
 				E1E149341790010E007963DF /* UIKit.framework in Frameworks */,
 				E1E149361790010E007963DF /* Foundation.framework in Frameworks */,
 				E1E149381790010E007963DF /* CoreGraphics.framework in Frameworks */,
@@ -114,6 +117,7 @@
 		E1E149271790010E007963DF = {
 			isa = PBXGroup;
 			children = (
+				E12E8F0F1790147C00A2E26A /* SystemConfiguration.framework */,
 				E1E149391790010E007963DF /* JSONAlpha */,
 				E1E149321790010E007963DF /* Frameworks */,
 				E1E149311790010E007963DF /* Products */,
