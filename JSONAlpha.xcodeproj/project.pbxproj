@@ -23,6 +23,13 @@
 		E1E1495F179002EB007963DF /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1495E179002EB007963DF /* CustomTableView.m */; };
 		E1E1496517900328007963DF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1496317900327007963DF /* WebViewController.m */; };
 		E1E1496617900328007963DF /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E1496417900328007963DF /* WebViewController.xib */; };
+		E1E1497917900749007963DF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1496B17900749007963DF /* AFHTTPRequestOperation.m */; };
+		E1E1497A17900749007963DF /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1496D17900749007963DF /* AFImageRequestOperation.m */; };
+		E1E1497B17900749007963DF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1496F17900749007963DF /* AFURLConnectionOperation.m */; };
+		E1E1497C17900749007963DF /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1497117900749007963DF /* UIImageView+AFNetworking.m */; };
+		E1E1497D17900749007963DF /* Call_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1497417900749007963DF /* Call_Service.m */; };
+		E1E1497E17900749007963DF /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1E1497617900749007963DF /* SVProgressHUD.bundle */; };
+		E1E1497F17900749007963DF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1497817900749007963DF /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,19 @@
 		E1E1496217900327007963DF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
 		E1E1496317900327007963DF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
 		E1E1496417900328007963DF /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = ../WebViewController.xib; sourceTree = "<group>"; };
+		E1E1496A17900749007963DF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E1E1496B17900749007963DF /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E1E1496C17900749007963DF /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		E1E1496D17900749007963DF /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		E1E1496E17900749007963DF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E1E1496F17900749007963DF /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E1E1497017900749007963DF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E1E1497117900749007963DF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E1E1497317900749007963DF /* Call_Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Call_Service.h; sourceTree = "<group>"; };
+		E1E1497417900749007963DF /* Call_Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Call_Service.m; sourceTree = "<group>"; };
+		E1E1497617900749007963DF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E1E1497717900749007963DF /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E1E1497817900749007963DF /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,7 @@
 		E1E149391790010E007963DF /* JSONAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				E1E1496817900749007963DF /* HelpingClasses */,
 				E1E149671790033C007963DF /* WebViewController */,
 				E1E1495017900119007963DF /* AppDelegate */,
 				E1E1493A1790010E007963DF /* Supporting Files */,
@@ -176,6 +197,50 @@
 			name = WebViewController;
 			sourceTree = "<group>";
 		};
+		E1E1496817900749007963DF /* HelpingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1496917900749007963DF /* AFNetworking */,
+				E1E1497217900749007963DF /* Call_Service */,
+				E1E1497517900749007963DF /* SVProgressHUD */,
+			);
+			path = HelpingClasses;
+			sourceTree = "<group>";
+		};
+		E1E1496917900749007963DF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1496A17900749007963DF /* AFHTTPRequestOperation.h */,
+				E1E1496B17900749007963DF /* AFHTTPRequestOperation.m */,
+				E1E1496C17900749007963DF /* AFImageRequestOperation.h */,
+				E1E1496D17900749007963DF /* AFImageRequestOperation.m */,
+				E1E1496E17900749007963DF /* AFURLConnectionOperation.h */,
+				E1E1496F17900749007963DF /* AFURLConnectionOperation.m */,
+				E1E1497017900749007963DF /* UIImageView+AFNetworking.h */,
+				E1E1497117900749007963DF /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		E1E1497217900749007963DF /* Call_Service */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1497317900749007963DF /* Call_Service.h */,
+				E1E1497417900749007963DF /* Call_Service.m */,
+			);
+			path = Call_Service;
+			sourceTree = "<group>";
+		};
+		E1E1497517900749007963DF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E1E1497617900749007963DF /* SVProgressHUD.bundle */,
+				E1E1497717900749007963DF /* SVProgressHUD.h */,
+				E1E1497817900749007963DF /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,6 +299,7 @@
 				E1E149591790016C007963DF /* CustomCell.xib in Resources */,
 				E1E1495B17900237007963DF /* CustomCell_iPad.xib in Resources */,
 				E1E1496617900328007963DF /* WebViewController.xib in Resources */,
+				E1E1497E17900749007963DF /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +316,12 @@
 				E1E1495717900155007963DF /* CustomCell.m in Sources */,
 				E1E1495F179002EB007963DF /* CustomTableView.m in Sources */,
 				E1E1496517900328007963DF /* WebViewController.m in Sources */,
+				E1E1497917900749007963DF /* AFHTTPRequestOperation.m in Sources */,
+				E1E1497A17900749007963DF /* AFImageRequestOperation.m in Sources */,
+				E1E1497B17900749007963DF /* AFURLConnectionOperation.m in Sources */,
+				E1E1497C17900749007963DF /* UIImageView+AFNetworking.m in Sources */,
+				E1E1497D17900749007963DF /* Call_Service.m in Sources */,
+				E1E1497F17900749007963DF /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
