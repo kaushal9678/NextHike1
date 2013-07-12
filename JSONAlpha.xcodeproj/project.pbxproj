@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12E8F0E1790143200A2E26A /* Call_Service.m in Sources */ = {isa = PBXBuildFile; fileRef = E12E8F0D1790143200A2E26A /* Call_Service.m */; };
 		E174C5431790138D00615FA2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */; };
 		E174C5441790138D00615FA2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53A1790138C00615FA2 /* AFImageRequestOperation.m */; };
 		E174C5451790138D00615FA2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E174C53C1790138C00615FA2 /* AFURLConnectionOperation.m */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E12E8F0C1790143200A2E26A /* Call_Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Call_Service.h; sourceTree = "<group>"; };
+		E12E8F0D1790143200A2E26A /* Call_Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Call_Service.m; sourceTree = "<group>"; };
 		E174C5371790138C00615FA2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		E174C5381790138C00615FA2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E174C5391790138C00615FA2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				E1E1493A1790010E007963DF /* Supporting Files */,
 				E1E1495417900136007963DF /* ViewController */,
 				E1E1496117900305007963DF /* SubView */,
+				E12E8F0C1790143200A2E26A /* Call_Service.h */,
+				E12E8F0D1790143200A2E26A /* Call_Service.m */,
 			);
 			path = JSONAlpha;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				E174C5451790138D00615FA2 /* AFURLConnectionOperation.m in Sources */,
 				E174C5461790138D00615FA2 /* UIImageView+AFNetworking.m in Sources */,
 				E174C5481790138D00615FA2 /* SVProgressHUD.m in Sources */,
+				E12E8F0E1790143200A2E26A /* Call_Service.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
